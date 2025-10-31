@@ -5,3 +5,7 @@
 - Exposes two output columns:
     - "Makes News (24H)" (boolean)
     - "News URL" (string with the first matching article URL or empty)
+
+
+Uses https://github.com/shner-elmo/TradingView-Screener
+Uses https://github.com/Finnhub-Stock-API/finnhub-python
