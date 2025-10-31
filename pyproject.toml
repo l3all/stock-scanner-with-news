@@ -1,7 +1,7 @@
 [project]
 name = "screener"
 version = "0.1.0"
-description = "Add your description here"
+description = "A python stock stock scanner using tradingview_screener and finnhub-python for the news"
 readme = "README.md"
 requires-python = "==3.12.12"
 dependencies = [
@@ -13,5 +13,4 @@ dependencies = [
     "rookiepy>=0.5.6",
     "tabulate>=0.9.0",
     "tradingview-screener>=3.0.0",
-    "yfinance>=0.2.66",
 ]
