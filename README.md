@@ -1,0 +1,7 @@
+- Uses TradingView scanner (tradingview_screener) to find premarket movers.
+- Filters by relative volume and other basic criteria.
+- Uses the Finnhub client (finnhub-python) to check company news within the last N hours.
+- Loads FINNHUB_API_KEY from environment (supports .env via python-dotenv).
+- Exposes two output columns:
+    - "Makes News (24H)" (boolean)
+    - "News URL" (string with the first matching article URL or empty)
